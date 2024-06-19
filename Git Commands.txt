@@ -1,0 +1,4 @@
+Git Commands
+
+git init
+ls -la   /// To confirm that .git is created or not
