@@ -12,6 +12,10 @@ git commit -m "Adding project files" -m "along with readme"
 git config --global user.email "your_mail"
 git config --global user.name "Your_Name"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e9b4203b064cb7e942190e82a71f28ffa6943235
 git remote -v
 
 git remote add origin repo_url.git
@@ -28,9 +32,12 @@ Note :: After updating file run following commands
 	1. git status //to check status 
 	2. git add . //only existing files are modified
 	3. git commit -ma //new file created and existing file modified  or git 
+<<<<<<< HEAD
 	4. git commit -m "Update_message"
 	5. git checkout master/main
 	6. git diff other_branch in which we have commited changes
 	7. git push -u origin feature_update_files
 	8. go to github page in browser and pull and commit
 
+=======
+>>>>>>> e9b4203b064cb7e942190e82a71f28ffa6943235
