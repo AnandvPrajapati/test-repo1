@@ -12,6 +12,7 @@ git commit -m "Adding project files" -m "along with readme"
 git config --global user.email "your_mail"
 git config --global user.name "Your_Name"
 
+
 git remote -v
 
 git remote add origin repo_url.git
@@ -28,4 +29,3 @@ Note :: After updating file run following commands
 	1. git status //to check status 
 	2. git add . //only existing files are modified
 	3. git commit -ma //new file created and existing file modified  or git 
-
