@@ -12,4 +12,25 @@ git commit -m "Adding project files" -m "along with readme"
 git config --global user.email "your_mail"
 git config --global user.name "Your_Name"
 
-touch file_namq
+git remote -v
+
+git remote add origin repo_url.git
+
+git push
+git push origin master
+
+git branch
+git checkout -b feature_update_files  /// Create new branch 
+git chechout branch_name ///change current branch to give branch
+
+
+Note :: After updating file run following commands
+	1. git status //to check status 
+	2. git add . //only existing files are modified
+	3. git commit -ma //new file created and existing file modified  or git 
+	4. git commit -m "Update_message"
+	5. git checkout master/main
+	6. git diff other_branch in which we have commited changes
+	7. git push -u origin feature_update_files
+	8. go to github page in browser and pull and commit
+
