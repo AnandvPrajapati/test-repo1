@@ -11,3 +11,5 @@ git commit -m "Adding project files" -m "along with readme"
 
 git config --global user.email "your_mail"
 git config --global user.name "Your_Name"
+
+touch file_namq
