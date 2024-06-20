@@ -42,3 +42,5 @@ git add .
 git commit -m 'your commit message'
 git push origin master
 
+git branch -d branch_name /// To delete branch
+
