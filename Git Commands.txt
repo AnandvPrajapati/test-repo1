@@ -2,3 +2,12 @@ Git Commands
 
 git init
 ls -la   /// To confirm that .git is created or not
+git status /// To Check status
+git add .  /// To add all the files
+
+git rm --cached <file_name>....   /// To remove any perticular file
+
+git commit -m "Adding project files" -m "along with readme"
+
+git config --global user.email "your_mail"
+git config --global user.name "Your_Name"
